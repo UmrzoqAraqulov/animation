@@ -16,7 +16,7 @@ main {
   height: 250px;
   border-radius: 50%;
   overflow: hidden;
-  box-shadow: -5px 5px skyblue;
+  box-shadow: -7px 7px skyblue;
   cursor: pointer;
 }
 
@@ -32,18 +32,18 @@ main {
 
 @keyframes animation {
   0% {
-    box-shadow: -5px 5px skyblue;
+    box-shadow: -7px 7px skyblue;
   }
   25% {
-    box-shadow: -5px -5px skyblue;
+    box-shadow: -7px -7px skyblue;
   }
   50% {
-    box-shadow: 5px -5px skyblue;
+    box-shadow: 7px -7px skyblue;
   }
   75% {
-    box-shadow: 5px 5px skyblue;
+    box-shadow: 7px 7px skyblue;
   }
   100% {
-    box-shadow: -5px 5px skyblue;
+    box-shadow: -7px 7px skyblue;
   }
 }
