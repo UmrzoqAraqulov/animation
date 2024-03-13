@@ -12,11 +12,16 @@ main {
 }
 
 .animation {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
-  animation: animation infinite linear 3s;
   overflow: hidden;
+  box-shadow: -5px 5px skyblue;
+  cursor: pointer;
+}
+
+.animation:hover {
+  animation: animation infinite linear 3s;
 }
 
 .animation img {
